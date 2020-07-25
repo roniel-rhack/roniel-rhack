@@ -1,4 +1,5 @@
-# ![https://mouredev.com](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png) Hello, my name is Brais Moure
+# ![https://mouredev.com](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png) Hello, my name is Roniel López
+
 ### Freelance full-stack iOS & Android engineer
 
 ![https://github.com/mouredev](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_github_profile.png)
@@ -11,6 +12,7 @@ Since then I have dedicated myself to specializing in mobile application develop
 In 2018 I return to my small hometown in Galicia (Spain), and I begin to create programming content and share my experience as a developer on platforms such as YouTube, Udemy and Twitch. I want to return all the knowledge that the community has shared with me for free.
 
 ## Skills:
+
 [![Apple](https://img.shields.io/badge/iOS-999999?style=for-the-badge&logo=apple&logoColor=white&labelColor=101010)]()
 [![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white&labelColor=101010)]()
 [![Xcode](https://img.shields.io/badge/Xcode-1575F9?style=for-the-badge&logo=xcode&logoColor=white&labelColor=101010)]()
@@ -31,6 +33,10 @@ In 2018 I return to my small hometown in Galicia (Spain), and I begin to create 
 </br>
 And more...
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=roniel-rhack" alt="roniel-rhack" /> </p>
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=roniel-rhack&show_icons=true" alt="roniel-rhack" /> </p>
+
 ## Find me at:
 
 [![YouTube](https://img.shields.io/badge/YouTube-Mouredev_by_Brais_Moure-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtube.com/mouredevapps)
@@ -44,66 +50,8 @@ And more...
 [![Udemy](https://img.shields.io/badge/Udemy-Brais_Moure-EC5252?style=for-the-badge&logo=udemy&logoColor=white&labelColor=101010)](https://www.udemy.com/course/swift_ios/?referralCode=04756B8423CBE177B930)
 [![Web](https://img.shields.io/badge/My_Website-MoureDev.com-14a1f0?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=101010)](https://mouredev.com)
 
-## Some YouTube videos:
-
-<table style="width:100%">
-  <tr>
-    <td>
-	<a href="https://youtu.be/MyzZnIR5gC4">
-  		<img src="http://i3.ytimg.com/vi/MyzZnIR5gC4/maxresdefault.jpg">
-	</a>
-	</td>
-    <td>
-	<a href="https://youtu.be/P6ko_I5GHbs">
-  		<img src="http://i3.ytimg.com/vi/P6ko_I5GHbs/maxresdefault.jpg">
-	</a>
-	</td>
-    <td>
-	<a href="https://youtu.be/fTSWFrt-xM4">
-  		<img src="http://i3.ytimg.com/vi/fTSWFrt-xM4/maxresdefault.jpg">
-	</a>
-	</td>
-  </tr>
-  <tr>
-    <td>
-	<a href="https://youtu.be/BQaxPwZWboA">
-  		<img src="http://i3.ytimg.com/vi/BQaxPwZWboA/maxresdefault.jpg">
-	</a>
-	</td>
-	<td>
-	<a href="https://youtu.be/ebQphhLpJG0">
-  		<img src="http://i3.ytimg.com/vi/ebQphhLpJG0/maxresdefault.jpg">
-	</a>
-	</td>
-   <td>
-	<a href="https://youtu.be/IiuKAmgRYeM">
-  		<img src="http://i3.ytimg.com/vi/IiuKAmgRYeM/maxresdefault.jpg">
-	</a>
-	</td>
-  </tr>
-    <tr>
-    <td>
-	<a href="https://youtu.be/5M794S0-8GU">
-  		<img src="http://i3.ytimg.com/vi/5M794S0-8GU/maxresdefault.jpg">
-	</a>
-	</td>
-	<td>
-	<a href="https://youtu.be/o5xzhqRdL1k">
-  		<img src="http://i3.ytimg.com/vi/o5xzhqRdL1k/maxresdefault.jpg">
-	</a>
-	</td>
-   <td>
-	<a href="https://youtu.be/xGXRjiseVaE">
-  		<img src="http://i3.ytimg.com/vi/xGXRjiseVaE/maxresdefault.jpg">
-	</a>
-	</td>
-  </tr>
-</table>
-</table>
-
-
 ## Contact me:
 
-[![MyPublicInbox](https://img.shields.io/badge/MyPublicInbox-MESSAGE+COFFEE_(FAST_RESPONSE)_Thank_you!-orange?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white&labelColor=101010)](https://mypublicinbox.com/mouredev)
+[![MyPublicInbox](<https://img.shields.io/badge/MyPublicInbox-MESSAGE+COFFEE_(FAST_RESPONSE)_Thank_you!-orange?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white&labelColor=101010>)](https://mypublicinbox.com/mouredev)
 </br>
-[![Email](https://img.shields.io/badge/braismoure@mouredev.com-my_personal_email_(slow_response)-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010)](mailto:braismoure@mouredev.com)
+[![Email](<https://img.shields.io/badge/braismoure@mouredev.com-my_personal_email_(slow_response)-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010>)](mailto:braismoure@mouredev.com)
