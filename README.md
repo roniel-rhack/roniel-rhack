@@ -1,6 +1,6 @@
 # ![https://mouredev.com](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png) Hello, my name is Roniel López
 
-### I'm a professional software developer for more than nine years.
+### Passionate software developer | Programming enthusiast | Eager to learn
 
 ![https://github.com/mouredev](https://raw.githubusercontent.com/roniel-rhack/roniel-rhack/master/banner.png)
 
@@ -17,8 +17,11 @@
   </a>&nbsp;&nbsp;
   
 </p>
+Strong engineering professional graduated from University of Informatics Sciences.
 
-I've been developing software since 2010. I am Full Stack Developer with strong passion/fortitude about learning new & hottest things and challenging! I enjoy the logic of solving coding challenges by splitting a big problem into smaller tasks!
+I started programming when I was ten and continue to enjoy it today. I find the constant puzzle solving keeps me fully engaged with the task at hand. Taking something from concept to reality is sincredibly satisfying, and that happens very quickly in software.
+
+I am Full Stack Developer with strong passion/fortitude about learning new & hottest things and challenging! I enjoy the logic of solving coding challenges by splitting a big problem into smaller tasks!
 
 - Proficient: Python, Java, React.js, JavaScript(ES6), Node.js, Express, HTML5, CSS3, Bootstrap4, Fetch, RESTful APIs
 - Experienced: Redux, Django, PHP, Koa, MySQL, PostgreSQL, MongoDB, mongoose, Sequelize, passport.js, bcrypt, crypto, Joi, Styled Component, Sass, Jest/Mocha/Chai, React-testing, library/Enzyme, Python, Django, jQuery
