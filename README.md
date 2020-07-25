@@ -1,23 +1,33 @@
 # ![https://mouredev.com](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png) Hello, my name is Roniel López
 
-### Freelance full-stack iOS & Android engineer
+### I'm a professional software developer for more than nine years.
 
-![https://github.com/mouredev](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_github_profile.png)
+![https://github.com/mouredev](https://raw.githubusercontent.com/roniel-rhack/roniel-rhack/master/banner.png)
 
-I'm a professional software developer for more than ten years.
+<p align='center'>
+  
+  <a href="https://wa.me/+5355450209?text=Hola!%20Roniel">
+    <img src="https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />    
+  </a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/rniel-lopez/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;
+  <a href="https://telegram.com/roniel">
+    <img src="https://img.shields.io/badge/TELEGRAM-%20-red.svg?&style=for-the-badge&logo=instagram&logoColor=white" />        
+  </a>&nbsp;&nbsp;
+  
+</p>
 
-In 2014 I left my job at a multinational and create [**MoureDev**](https://mouredev.com), the reflection of my dream to grow as a professional within the software development industry.
-Since then I have dedicated myself to specializing in mobile application development, collaborating with companies from different parts of the world, creating more than 60 Apps and founding my own startup.
+I've been developing software since 2010. I am Full Stack Developer with strong passion/fortitude about learning new & hottest things and challenging! I enjoy the logic of solving coding challenges by splitting a big problem into smaller tasks!
 
-In 2018 I return to my small hometown in Galicia (Spain), and I begin to create programming content and share my experience as a developer on platforms such as YouTube, Udemy and Twitch. I want to return all the knowledge that the community has shared with me for free.
+- Proficient: Python, Java, React.js, JavaScript(ES6), Node.js, Express, HTML5, CSS3, Bootstrap4, Fetch, RESTful APIs
+- Experienced: Redux, Django, PHP, Koa, MySQL, PostgreSQL, MongoDB, mongoose, Sequelize, passport.js, bcrypt, crypto, Joi, Styled Component, Sass, Jest/Mocha/Chai, React-testing, library/Enzyme, Python, Django, jQuery
+- Tools: Android Studio, Git, GitHub, Postman, NPM, Chrome Dev Tools, VS Code, JSON, Webpack, Babel, CLI, Ubuntu, Docker, AWS(EC2, S3)
 
 ## Skills:
 
-[![Apple](https://img.shields.io/badge/iOS-999999?style=for-the-badge&logo=apple&logoColor=white&labelColor=101010)]()
-[![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white&labelColor=101010)]()
-[![Xcode](https://img.shields.io/badge/Xcode-1575F9?style=for-the-badge&logo=xcode&logoColor=white&labelColor=101010)]()
-</br>
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=101010)]()
+[![Python](https://img.shields.io/badge/Python-5DA94?style=for-the-badge&logo=python&logoColor=white&labelColor=101310)]()
 [![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=101010)]()
 [![Android_Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white&labelColor=101010)]()
 </br>
@@ -33,25 +43,29 @@ In 2018 I return to my small hometown in Galicia (Spain), and I begin to create 
 </br>
 And more...
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=roniel-rhack" alt="roniel-rhack" /> </p>
+_NOTE: Top languages does not indicate my skill level or something like that, it's a github metric of which languages i have the most code on github, it's a new feature of [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)_
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=roniel-rhack&show_icons=true" alt="roniel-rhack" /> </p>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=roniel-rhack&theme=radical&hide=glsl,python" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=roniel-rhack&show_icons=true&theme=radical&line_height=27" alt="Anurag's github stats" />
+</a>
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=roniel-rhack&repo=nauta-connect-apk&theme=radical" />
+</a>
 
 ## Find me at:
 
-[![YouTube](https://img.shields.io/badge/YouTube-Mouredev_by_Brais_Moure-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtube.com/mouredevapps)
-[![Twitch](https://img.shields.io/badge/Twitch-mouredev-9146FF?style=for-the-badge&logo=twitch&logoColor=white&labelColor=101010)](https://twitch.tv/mouredev)
+[![Twitter](https://img.shields.io/badge/Twitter-@Roniel_Rhack-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=101010)](https://twitter.com/roniel_rhack)
+[![Facebook](https://img.shields.io/badge/Facebook-@roniel.rack-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=101010)](https://facebook.com/roniel.rack)
 </br>
-[![Twitter](https://img.shields.io/badge/Twitter-@mouredev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=101010)](https://twitter.com/mouredev)
-[![Instagram](https://img.shields.io/badge/Instagram-@mouredev-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=101010)](https://instagram.com/mouredev)
-[![Facebook](https://img.shields.io/badge/Facebook-@mouredev-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=101010)](https://facebook.com/mouredev)
-</br>
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Brais_Moure-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/braismoure)
-[![Udemy](https://img.shields.io/badge/Udemy-Brais_Moure-EC5252?style=for-the-badge&logo=udemy&logoColor=white&labelColor=101010)](https://www.udemy.com/course/swift_ios/?referralCode=04756B8423CBE177B930)
-[![Web](https://img.shields.io/badge/My_Website-MoureDev.com-14a1f0?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=101010)](https://mouredev.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-roniel_lopez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/roniel-lopez)
+[![Web](https://img.shields.io/badge/DEV_TO-Roniel_Lopez-14a1f0?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=101010)](https://dev.to/roniel_rhack)
 
 ## Contact me:
 
-[![MyPublicInbox](<https://img.shields.io/badge/MyPublicInbox-MESSAGE+COFFEE_(FAST_RESPONSE)_Thank_you!-orange?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white&labelColor=101010>)](https://mypublicinbox.com/mouredev)
-</br>
-[![Email](<https://img.shields.io/badge/braismoure@mouredev.com-my_personal_email_(slow_response)-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010>)](mailto:braismoure@mouredev.com)
+[![Email](<https://img.shields.io/badge/roniel.rack@gmal.com-my_personal_email_(fast response)-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010>)](mailto:roniel.rack@gmail.com)
