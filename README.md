@@ -1,4 +1,4 @@
-# <img src="./avatar.png" alt="drawing" width="70"/> Hello, my name is Roniel López
+# <img src="./avatar.png" alt="drawing" width="70" style="border-radius:35px;"/> Hello, my name is Roniel López
 
 
 ### Passionate software developer | Programming enthusiast | Eager to learn
