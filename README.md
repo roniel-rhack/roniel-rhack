@@ -1,5 +1,5 @@
-# ![https://github.com/roniel-rhack/](https://github.com/roniel-rhack/roniel-rhack/blob/master/avatar.png  =70x70) Hello, my name is Roniel López
-<img src="./avatar.png" alt="drawing" width="70"/>
+# <img src="./avatar.png" alt="drawing" width="70"/> Hello, my name is Roniel López
+
 
 ### Passionate software developer | Programming enthusiast | Eager to learn
 
