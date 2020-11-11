@@ -1,4 +1,4 @@
-# ![https://mouredev.com](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png) Hello, my name is Roniel López
+# ![https://mouredev.com](https://github.com/roniel-rhack/roniel-rhack/avatar.png) Hello, my name is Roniel López
 
 ### Passionate software developer | Programming enthusiast | Eager to learn
 
