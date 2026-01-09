@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="500" viewBox="0 0 985 500">
+  <style>
+    @keyframes cursor {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor {
+      animation: cursor 1s infinite;
+    }
+    .header { fill: #58a6ff; font-weight: bold; }
+    .key { fill: #ffa657; }
+    .value { fill: #a5d6ff; }
+    .text { fill: #c9d1d9; }
+    .dots { fill: #6e7681; }
+    .stat-value { fill: #7ee787; }
+    .accent { fill: #f78166; }
+    text { font-family: Consolas, "Liberation Mono", Menlo, monospace; font-size: 14px; }
+  </style>
+
+  <rect width="985" height="500" fill="#0d1117" rx="10"/>
+  <rect x="5" y="5" width="975" height="490" fill="#161b22" rx="8"/>
+
+  <!-- Terminal header -->
+  <rect x="5" y="5" width="975" height="30" fill="#21262d" rx="8"/>
+  <circle cx="25" cy="20" r="6" fill="#f85149"/>
+  <circle cx="45" cy="20" r="6" fill="#f0b72f"/>
+  <circle cx="65" cy="20" r="6" fill="#3fb950"/>
+  <text x="492" y="24" text-anchor="middle" class="text" font-size="12">roniel@github ~ neofetch</text>
+
+  <!-- ASCII Art - Developer icon style -->
+  <text x="30" y="70" class="header" font-size="11">
+    <tspan x="30" dy="0">                    ██████████                    </tspan>
+    <tspan x="30" dy="14">                ████          ████                </tspan>
+    <tspan x="30" dy="14">              ██      ████      ██              </tspan>
+    <tspan x="30" dy="14">            ██    ████████████    ██            </tspan>
+    <tspan x="30" dy="14">          ██    ██████████████    ██          </tspan>
+    <tspan x="30" dy="14">          ██    ██████████████    ██          </tspan>
+    <tspan x="30" dy="14">          ██      ████████████      ██          </tspan>
+    <tspan x="30" dy="14">            ██      ████████      ██            </tspan>
+    <tspan x="30" dy="14">              ██                ██              </tspan>
+    <tspan x="30" dy="14">                ████████████████                </tspan>
+    <tspan x="30" dy="14">            ████████████████████████            </tspan>
+    <tspan x="30" dy="14">          ██  ████████████████████  ██          </tspan>
+    <tspan x="30" dy="14">          ██  ██              ██  ██          </tspan>
+    <tspan x="30" dy="14">          ██  ██              ██  ██          </tspan>
+    <tspan x="30" dy="14">            ████                ████            </tspan>
+  </text>
+
+  <!-- Info section -->
+  <text x="380" y="70" class="header">roniel@lopez</text>
+  <text x="380" y="88" class="text">─────────────────────────────────────────</text>
+
+  <!-- OS / Role -->
+  <text x="380" y="110">
+    <tspan class="key">role</tspan><tspan class="dots">............</tspan><tspan class="value">Software Project Leader</tspan>
+  </text>
+  <text x="380" y="128">
+    <tspan class="key">company</tspan><tspan class="dots">.........</tspan><tspan class="value">Mercado Libre</tspan>
+  </text>
+  <text x="380" y="146">
+    <tspan class="key">team</tspan><tspan class="dots">............</tspan><tspan class="value">Marketplace Fraud Prevention</tspan>
+  </text>
+  <text x="380" y="164">
+    <tspan class="key">location</tspan><tspan class="dots">........</tspan><tspan class="value">Montevideo, Uruguay</tspan>
+  </text>
+  <text x="380" y="182">
+    <tspan class="key">experience</tspan><tspan class="dots">......</tspan><tspan class="value">12+ years</tspan>
+  </text>
+
+  <text x="380" y="206" class="text">─────────────────────────────────────────</text>
+
+  <!-- Languages -->
+  <text x="380" y="228">
+    <tspan class="key">languages</tspan><tspan class="dots">.......</tspan><tspan class="value">Java, Go, Python, JavaScript</tspan>
+  </text>
+  <text x="380" y="246">
+    <tspan class="key">frameworks</tspan><tspan class="dots">......</tspan><tspan class="value">Spring Boot, WebFlux, Angular, React</tspan>
+  </text>
+  <text x="380" y="264">
+    <tspan class="key">cloud</tspan><tspan class="dots">...........</tspan><tspan class="value">GCP, AWS, Docker, Kubernetes</tspan>
+  </text>
+  <text x="380" y="282">
+    <tspan class="key">devops</tspan><tspan class="dots">..........</tspan><tspan class="value">Jenkins, Ansible, Terraform</tspan>
+  </text>
+  <text x="380" y="300">
+    <tspan class="key">databases</tspan><tspan class="dots">.......</tspan><tspan class="value">PostgreSQL, MySQL, MongoDB</tspan>
+  </text>
+
+  <text x="380" y="324" class="text">─────────────────────────────────────────</text>
+
+  <!-- GitHub Stats (will be updated by Python) -->
+  <text x="380" y="346">
+    <tspan class="key">repos</tspan><tspan class="dots">...........</tspan><tspan class="stat-value" id="repos"><!-- REPOS --></tspan>
+  </text>
+  <text x="380" y="364">
+    <tspan class="key">commits</tspan><tspan class="dots">.........</tspan><tspan class="stat-value" id="commits"><!-- COMMITS --></tspan>
+  </text>
+  <text x="380" y="382">
+    <tspan class="key">stars</tspan><tspan class="dots">...........</tspan><tspan class="stat-value" id="stars"><!-- STARS --></tspan>
+  </text>
+  <text x="380" y="400">
+    <tspan class="key">followers</tspan><tspan class="dots">.......</tspan><tspan class="stat-value" id="followers"><!-- FOLLOWERS --></tspan>
+  </text>
+
+  <text x="380" y="424" class="text">─────────────────────────────────────────</text>
+
+  <!-- Contact -->
+  <text x="380" y="446">
+    <tspan class="key">email</tspan><tspan class="dots">...........</tspan><tspan class="value">roniel.rack@gmail.com</tspan>
+  </text>
+  <text x="380" y="464">
+    <tspan class="key">linkedin</tspan><tspan class="dots">........</tspan><tspan class="value">roniel-lopez</tspan>
+  </text>
+  <text x="380" y="482">
+    <tspan class="key">website</tspan><tspan class="dots">.........</tspan><tspan class="value">ronielcloud.com</tspan>
+  </text>
+
+  <!-- Color palette -->
+  <rect x="30" y="320" width="40" height="20" fill="#f85149" rx="3"/>
+  <rect x="75" y="320" width="40" height="20" fill="#f0b72f" rx="3"/>
+  <rect x="120" y="320" width="40" height="20" fill="#3fb950" rx="3"/>
+  <rect x="165" y="320" width="40" height="20" fill="#58a6ff" rx="3"/>
+  <rect x="210" y="320" width="40" height="20" fill="#a371f7" rx="3"/>
+  <rect x="255" y="320" width="40" height="20" fill="#f778ba" rx="3"/>
+
+  <rect x="30" y="345" width="40" height="20" fill="#7d8590" rx="3"/>
+  <rect x="75" y="345" width="40" height="20" fill="#c9d1d9" rx="3"/>
+  <rect x="120" y="345" width="40" height="20" fill="#ffa657" rx="3"/>
+  <rect x="165" y="345" width="40" height="20" fill="#a5d6ff" rx="3"/>
+  <rect x="210" y="345" width="40" height="20" fill="#7ee787" rx="3"/>
+  <rect x="255" y="345" width="40" height="20" fill="#ff7b72" rx="3"/>
+
+  <!-- Cursor -->
+  <text x="30" y="400" class="text">$<tspan class="cursor">_</tspan></text>
+</svg>
