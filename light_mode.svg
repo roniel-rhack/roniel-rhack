@@ -14,7 +14,9 @@
     .dots { fill: #8c959f; }
     .stat-value { fill: #1a7f37; }
     .accent { fill: #cf222e; }
+    .ascii { fill: #0969da; }
     text { font-family: Consolas, "Liberation Mono", Menlo, monospace; font-size: 14px; }
+    .ascii-art { font-family: Consolas, "Liberation Mono", Menlo, monospace; font-size: 10px; }
   </style>
 
   <rect width="985" height="500" fill="#d0d7de" rx="10"/>
@@ -27,23 +29,32 @@
   <circle cx="65" cy="20" r="6" fill="#3fb950"/>
   <text x="492" y="24" text-anchor="middle" class="text" font-size="12">roniel@github ~ neofetch</text>
 
-  <!-- ASCII Art - Developer icon style -->
-  <text x="30" y="70" class="header" font-size="11">
-    <tspan x="30" dy="0">                    ██████████                    </tspan>
-    <tspan x="30" dy="14">                ████          ████                </tspan>
-    <tspan x="30" dy="14">              ██      ████      ██              </tspan>
-    <tspan x="30" dy="14">            ██    ████████████    ██            </tspan>
-    <tspan x="30" dy="14">          ██    ██████████████    ██          </tspan>
-    <tspan x="30" dy="14">          ██    ██████████████    ██          </tspan>
-    <tspan x="30" dy="14">          ██      ████████████      ██          </tspan>
-    <tspan x="30" dy="14">            ██      ████████      ██            </tspan>
-    <tspan x="30" dy="14">              ██                ██              </tspan>
-    <tspan x="30" dy="14">                ████████████████                </tspan>
-    <tspan x="30" dy="14">            ████████████████████████            </tspan>
-    <tspan x="30" dy="14">          ██  ████████████████████  ██          </tspan>
-    <tspan x="30" dy="14">          ██  ██              ██  ██          </tspan>
-    <tspan x="30" dy="14">          ██  ██              ██  ██          </tspan>
-    <tspan x="30" dy="14">            ████                ████            </tspan>
+  <!-- ASCII Art Portrait -->
+  <text x="30" y="55" class="ascii-art ascii">
+    <tspan x="50" dy="0">          ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄          </tspan>
+    <tspan x="50" dy="11">       ▄█████████████████████████▄       </tspan>
+    <tspan x="50" dy="11">     ▄███████████████████████████████▄     </tspan>
+    <tspan x="50" dy="11">    █████████████████████████████████████    </tspan>
+    <tspan x="50" dy="11">   ███████████████████████████████████████   </tspan>
+    <tspan x="50" dy="11">   ████████████▀▀▀▀▀▀▀▀▀▀▀▀▀████████████   </tspan>
+    <tspan x="50" dy="11">  █████████▀                   ▀█████████  </tspan>
+    <tspan x="50" dy="11">  ████████                       ████████  </tspan>
+    <tspan x="50" dy="11">  ███████    ▄▄▄▄▄     ▄▄▄▄▄    ███████  </tspan>
+    <tspan x="50" dy="11">  ███████   █░░░░█     █░░░░█   ███████  </tspan>
+    <tspan x="50" dy="11">  ███████   █░▀░░█     █░░▀░█   ███████  </tspan>
+    <tspan x="50" dy="11">  ████████   ▀▀▀▀▀     ▀▀▀▀▀   ████████  </tspan>
+    <tspan x="50" dy="11">  █████████       ▄▄▄▄▄       █████████  </tspan>
+    <tspan x="50" dy="11">   ██████████    █░░░░░█    ██████████   </tspan>
+    <tspan x="50" dy="11">   ███████████    ▀▀▀▀▀    ███████████   </tspan>
+    <tspan x="50" dy="11">    █████████████▄▄▄▄▄▄▄█████████████    </tspan>
+    <tspan x="50" dy="11">     ▀███████████████████████████████▀     </tspan>
+    <tspan x="50" dy="11">       ▀█████████████████████████▀       </tspan>
+    <tspan x="50" dy="11">      ▄██████████████████████████████▄      </tspan>
+    <tspan x="50" dy="11">     ████████████████████████████████████     </tspan>
+    <tspan x="50" dy="11">    ██████████████████████████████████████    </tspan>
+    <tspan x="50" dy="11">   ████████████████████████████████████████   </tspan>
+    <tspan x="50" dy="11">   ████████████████████████████████████████   </tspan>
+    <tspan x="50" dy="11">   ████████████████████████████████████████   </tspan>
   </text>
 
   <!-- Info section -->
@@ -116,20 +127,20 @@
   </text>
 
   <!-- Color palette -->
-  <rect x="30" y="320" width="40" height="20" fill="#cf222e" rx="3"/>
-  <rect x="75" y="320" width="40" height="20" fill="#bf8700" rx="3"/>
-  <rect x="120" y="320" width="40" height="20" fill="#1a7f37" rx="3"/>
-  <rect x="165" y="320" width="40" height="20" fill="#0969da" rx="3"/>
-  <rect x="210" y="320" width="40" height="20" fill="#8250df" rx="3"/>
-  <rect x="255" y="320" width="40" height="20" fill="#bf3989" rx="3"/>
+  <rect x="50" y="340" width="35" height="18" fill="#cf222e" rx="3"/>
+  <rect x="90" y="340" width="35" height="18" fill="#bf8700" rx="3"/>
+  <rect x="130" y="340" width="35" height="18" fill="#1a7f37" rx="3"/>
+  <rect x="170" y="340" width="35" height="18" fill="#0969da" rx="3"/>
+  <rect x="210" y="340" width="35" height="18" fill="#8250df" rx="3"/>
+  <rect x="250" y="340" width="35" height="18" fill="#bf3989" rx="3"/>
 
-  <rect x="30" y="345" width="40" height="20" fill="#57606a" rx="3"/>
-  <rect x="75" y="345" width="40" height="20" fill="#1f2328" rx="3"/>
-  <rect x="120" y="345" width="40" height="20" fill="#953800" rx="3"/>
-  <rect x="165" y="345" width="40" height="20" fill="#0550ae" rx="3"/>
-  <rect x="210" y="345" width="40" height="20" fill="#116329" rx="3"/>
-  <rect x="255" y="345" width="40" height="20" fill="#a40e26" rx="3"/>
+  <rect x="50" y="363" width="35" height="18" fill="#57606a" rx="3"/>
+  <rect x="90" y="363" width="35" height="18" fill="#1f2328" rx="3"/>
+  <rect x="130" y="363" width="35" height="18" fill="#953800" rx="3"/>
+  <rect x="170" y="363" width="35" height="18" fill="#0550ae" rx="3"/>
+  <rect x="210" y="363" width="35" height="18" fill="#116329" rx="3"/>
+  <rect x="250" y="363" width="35" height="18" fill="#a40e26" rx="3"/>
 
   <!-- Cursor -->
-  <text x="30" y="400" class="text">$<tspan class="cursor">_</tspan></text>
+  <text x="50" y="420" class="text">$<tspan class="cursor">_</tspan></text>
 </svg>
