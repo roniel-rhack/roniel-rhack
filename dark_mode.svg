@@ -34,29 +34,31 @@
 
   <!-- ASCII Art Portrait -->
   <text x="30" y="55" class="ascii-art ascii">
-    <tspan x="50" dy="0">▒▒░▒░                           ░░░░░     </tspan>
-    <tspan x="50" dy="11">▒▒▒▒▒░░                                   </tspan>
-    <tspan x="50" dy="11">▒▒▒░▒▒▒░░░░░░                             </tspan>
-    <tspan x="50" dy="11">▒▒▒▒▒▒▒▒░░░                               </tspan>
-    <tspan x="50" dy="11">▒░░▒▒▒▒░░░░                  ░░░░         </tspan>
-    <tspan x="50" dy="11">░░▒▓▒▒▒░░░▒▒▒▒░░░░             ░░ ░   ░░░░</tspan>
-    <tspan x="50" dy="11">░░▒░▒▒▒▒▒▒▓▓▓▓▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░▒▒▒▒</tspan>
-    <tspan x="50" dy="11">░░░░▒▒▒▓▓▓▓▓▓▓▓▓▓▓▒▒░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒</tspan>
-    <tspan x="50" dy="11">░░░▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒</tspan>
-    <tspan x="50" dy="11">░░░░░▒▓█▓▓▒▒▒▒▒▒▒▓▓██▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒</tspan>
-    <tspan x="50" dy="11">▒▒▒▒▒▓▓▓▓▒▒▒▒▒▒▒▒▒▒▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒</tspan>
-    <tspan x="50" dy="11">▒░▒▒▒▒▒▒▒▒▒▒░░░░░▒▒░░▒▒▒▒▒▒▒▒▒▓▒▒▒▒▒▒▒▒▒▒▒</tspan>
-    <tspan x="50" dy="11">▒▒▒▒▒▒░▒▒▓▓▓▒▒░▒▓▓▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒</tspan>
-    <tspan x="50" dy="11">▒▒▒▒▒▒░░▒▒▒▒▒▒░░░░░ ░▒▒▒▒░▒░░▒▒▒▒▓▒▒▒▒▒▒▒▒</tspan>
-    <tspan x="50" dy="11">▒▒▒▒▒░▒░░░░░▒░░ ░░░░░▒▒▒▒▒▒░░░░░░▒░▒▒▒▒░▒▒</tspan>
-    <tspan x="50" dy="11">▒▒▒▒▒▒▒▒░░░▒▒▒░░░░░░▒▒▒▒▒▒░░░░░░░░▒▒▒▒▒░░░</tspan>
-    <tspan x="50" dy="11">░░▒▒▒▒▒▒▒░▒▒▒▒░░░▒░░▒▒▓▓▒▒▒▒  ▒▒▒▒▒▒░░░░░▒</tspan>
-    <tspan x="50" dy="11">░░░░░▒▒▒▒▒▒▒▒░░░░░░▒▓▓▓▒▒▒▒▒▒░▒▒▒▒░░░░░▒▒▒</tspan>
-    <tspan x="50" dy="11">░░▒▒▓▓▒▒▒▒░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▒▒░░░░░░░░▒▒</tspan>
-    <tspan x="50" dy="11">▓▓▓▓▓▓▓▒▒▒▒▒░░░░░░▓█▓▓▓▓▓▓▓▓▓▓▓▓▒░▒▒░░░▒░▒</tspan>
-    <tspan x="50" dy="11">▓▓▓▓▓▓▓▓▒░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒░▒░░▒</tspan>
-    <tspan x="50" dy="11">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒</tspan>
-    <tspan x="50" dy="11">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▓▒</tspan>
+    <tspan x="50" dy="0">-(zutp$$$@$@$$$$$$$$$$$$$$$$$$$$$$$$$$$$@BBB@$$$$$</tspan>
+    <tspan x="50" dy="11">+~1znuJh@$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$</tspan>
+    <tspan x="50" dy="11">jf_YX}|xYm*M%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$</tspan>
+    <tspan x="50" dy="11">nj+}((t/|UJwW@@@@@@$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@</tspan>
+    <tspan x="50" dy="11">!cJ|?{}+1*uZo@$$$$$@@@@@$@@@@@@@@@@@@@@@@@$$@@@@@$</tspan>
+    <tspan x="50" dy="11">upw],[cxc&amp;00CwopkM@$$$$$$$$$$$$$$$$$$$$$$$B@$$$$$8</tspan>
+    <tspan x="50" dy="11">wpX}-i-|)u/[;"'  ^i?/XObaMMooW*#8&amp;8%%&amp;MW88B%8op0j&gt;</tspan>
+    <tspan x="50" dy="11">CQJ0kf~t'`     ..   `!_)QmqmmUQLXqppmw0YQZcf}i;:``</tspan>
+    <tspan x="50" dy="11">ZqqCmj&lt;I",'...    ..',i&lt;COJUUxzYCqw0zr(?iI,^II"^""</tspan>
+    <tspan x="50" dy="11">0mJxxxt.^              ';ncrt|rf)]&gt;&gt;;``",`","^'`''</tspan>
+    <tspan x="50" dy="11">nzuJ0C&lt;      ,l~-+l`      _x{-&gt;;^!]]I.^'`^""`,::"^</tspan>
+    <tspan x="50" dy="11">-}[-f1     `l](rvn|[&lt;:`I`,&lt;?&gt;"^".-[lI::,``^^,^'^",</tspan>
+    <tspan x="50" dy="11">)Ur-^"&lt;(I.^~/cL0O0QJzttoU1]i&gt;&gt;I{],;'.^",";:,`,,;":</tspan>
+    <tspan x="50" dy="11">[([1&gt;&gt;nX}`"^.`,]JQl  "+p%tnc)i` &gt;]}+}}[^'":!;!lI;^</tspan>
+    <tspan x="50" dy="11">;+[?-(ccU|_+?}-_Z&amp;zunQ*@B_"[nUJftW}+~il  ~]!+i::i~</tspan>
+    <tspan x="50" dy="11">;i&gt;!,&gt;LnLq*MMqt(q$$#$$$@W[+_i-)vcJdhOCY/(Lc()jUz&lt;"</tspan>
+    <tspan x="50" dy="11">])|?-&lt;{)cCphmn[)w#aQc0h@r/f)x/[fQ/z&amp;8$BwUf{|)tjv/(</tspan>
+    <tspan x="50" dy="11">Qu(1}" _frzYzXf]/YwoLzQa?,l !-xJrO@bjJc1~}[(UOZ0OO</tspan>
+    <tspan x="50" dy="11">aoJxzv?i]1uc1?1xLCO0rzkx!I'',_[+)Zoh}I+[1cJOZUzf1)</tspan>
+    <tspan x="50" dy="11">Z&amp;&amp;bC(!1(l1nvzJQCCa$$kv`       .  `-t|UXnLQQZJCv|Q</tspan>
+    <tspan x="50" dy="11">/)-I   ]u}:-xQdo#&amp;@%ow^              ItL0zY0dpOuX1</tspan>
+    <tspan x="50" dy="11">        Ivc?l+(rvzXvbc .               ]U&lt;UYUc)xO}</tspan>
+    <tspan x="50" dy="11"> .       `(CJn1_&gt;_[)_                   _rt-znXZYz</tspan>
+    <tspan x="50" dy="11">            ,!!I"`                     .I[I^I{)[1x</tspan>
+    <tspan x="50" dy="11">                                        .,&lt;l?f&gt;.^,</tspan>
   </text>
 
   <!-- Info section -->
@@ -106,7 +108,7 @@
     <tspan class="key">repos</tspan><tspan class="dots">...........</tspan><tspan class="stat-value" id="repos">21</tspan>
   </text>
   <text x="380" y="364">
-    <tspan class="key">commits</tspan><tspan class="dots">.........</tspan><tspan class="stat-value" id="commits">68</tspan>
+    <tspan class="key">commits</tspan><tspan class="dots">.........</tspan><tspan class="stat-value" id="commits">69</tspan>
   </text>
   <text x="380" y="382">
     <tspan class="key">stars</tspan><tspan class="dots">...........</tspan><tspan class="stat-value" id="stars">17</tspan>
