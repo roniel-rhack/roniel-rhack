@@ -14,8 +14,8 @@ GITHUB_TOKEN = os.environ.get("GH_TOKEN")
 GITHUB_USERNAME = "roniel-rhack"
 SVG_FILES = ["dark_mode.svg", "light_mode.svg"]
 
-# Extended ASCII characters for better gradients (light to dark)
-ASCII_CHARS = " .'`^\",:;Il!i><~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
+# ASCII characters sorted by visual density (light to dark)
+ASCII_CHARS = " .:-=+*#%@"
 
 # GraphQL query for GitHub stats
 GRAPHQL_QUERY = """
@@ -70,16 +70,17 @@ def fetch_github_data():
     return data["data"]["user"]
 
 
-def image_to_ascii(image_url, width=50, height=28):
+def image_to_ascii(image_url, width=38, height=24):
     """Convert image from URL to ASCII art with enhanced quality."""
     try:
-        from PIL import Image, ImageEnhance, ImageFilter
+        from PIL import Image, ImageEnhance, ImageOps
     except ImportError:
         print("Pillow not installed, using placeholder ASCII art")
         return None
 
-    # Download image
-    response = requests.get(image_url)
+    # Download image (request larger size for better quality)
+    avatar_url = image_url + "&s=400" if "?" in image_url else image_url + "?s=400"
+    response = requests.get(avatar_url)
     img = Image.open(BytesIO(response.content))
 
     # Convert to RGB first (in case of RGBA)
@@ -88,45 +89,46 @@ def image_to_ascii(image_url, width=50, height=28):
         background.paste(img, mask=img.split()[3])
         img = background
 
-    # Enhance contrast before converting to grayscale
-    enhancer = ImageEnhance.Contrast(img)
-    img = enhancer.enhance(1.5)
-
-    # Enhance sharpness
-    enhancer = ImageEnhance.Sharpness(img)
-    img = enhancer.enhance(1.3)
+    # Crop to center square (focus on face)
+    min_dim = min(img.width, img.height)
+    left = (img.width - min_dim) // 2
+    top = (img.height - min_dim) // 2
+    img = img.crop((left, top, left + min_dim, top + min_dim))
 
     # Convert to grayscale
     img = img.convert('L')
 
-    # Enhance contrast on grayscale for better ASCII representation
+    # Auto-contrast to use full range
+    img = ImageOps.autocontrast(img, cutoff=2)
+
+    # Enhance contrast
     enhancer = ImageEnhance.Contrast(img)
-    img = enhancer.enhance(1.8)
+    img = enhancer.enhance(2.0)
 
-    # Resize with aspect ratio correction for monospace fonts
-    aspect_ratio = img.height / img.width
-    new_height = int(width * aspect_ratio * 0.5)
+    # Resize with aspect ratio for monospace (chars are ~2x taller than wide)
+    new_height = int(width * 0.5)
     new_height = min(new_height, height)
-
     img = img.resize((width, new_height), Image.Resampling.LANCZOS)
 
-    # Convert pixels to ASCII characters
+    # Convert pixels to ASCII
     pixels = list(img.getdata())
     ascii_lines = []
+    num_chars = len(ASCII_CHARS)
 
     for i in range(0, len(pixels), width):
         row = pixels[i:i + width]
         line = ""
         for pixel in row:
-            # Map pixel to character (dark pixels = dense chars, light = sparse)
-            char_idx = int(pixel / 255 * (len(ASCII_CHARS) - 1))
+            # Invert: dark areas of image become dense characters
+            inverted = 255 - pixel
+            char_idx = int(inverted / 255 * (num_chars - 1))
             line += ASCII_CHARS[char_idx]
         ascii_lines.append(line)
 
     return ascii_lines
 
 
-def generate_ascii_svg_element(ascii_lines, x=50, start_y=55, line_height=11):
+def generate_ascii_svg_element(ascii_lines, x=30, start_y=55, line_height=13):
     """Generate SVG text element with ASCII art."""
     tspans = []
     for i, line in enumerate(ascii_lines):
