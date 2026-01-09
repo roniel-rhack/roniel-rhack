@@ -14,8 +14,8 @@ GITHUB_TOKEN = os.environ.get("GH_TOKEN")
 GITHUB_USERNAME = "roniel-rhack"
 SVG_FILES = ["dark_mode.svg", "light_mode.svg"]
 
-# ASCII characters from dark to light
-ASCII_CHARS = " ░▒▓█"
+# Extended ASCII characters for better gradients (light to dark)
+ASCII_CHARS = " .'`^\",:;Il!i><~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 
 # GraphQL query for GitHub stats
 GRAPHQL_QUERY = """
@@ -70,10 +70,10 @@ def fetch_github_data():
     return data["data"]["user"]
 
 
-def image_to_ascii(image_url, width=42, height=26):
-    """Convert image from URL to ASCII art."""
+def image_to_ascii(image_url, width=50, height=28):
+    """Convert image from URL to ASCII art with enhanced quality."""
     try:
-        from PIL import Image
+        from PIL import Image, ImageEnhance, ImageFilter
     except ImportError:
         print("Pillow not installed, using placeholder ASCII art")
         return None
@@ -82,12 +82,30 @@ def image_to_ascii(image_url, width=42, height=26):
     response = requests.get(image_url)
     img = Image.open(BytesIO(response.content))
 
+    # Convert to RGB first (in case of RGBA)
+    if img.mode == 'RGBA':
+        background = Image.new('RGB', img.size, (255, 255, 255))
+        background.paste(img, mask=img.split()[3])
+        img = background
+
+    # Enhance contrast before converting to grayscale
+    enhancer = ImageEnhance.Contrast(img)
+    img = enhancer.enhance(1.5)
+
+    # Enhance sharpness
+    enhancer = ImageEnhance.Sharpness(img)
+    img = enhancer.enhance(1.3)
+
     # Convert to grayscale
     img = img.convert('L')
 
+    # Enhance contrast on grayscale for better ASCII representation
+    enhancer = ImageEnhance.Contrast(img)
+    img = enhancer.enhance(1.8)
+
     # Resize with aspect ratio correction for monospace fonts
     aspect_ratio = img.height / img.width
-    new_height = int(width * aspect_ratio * 0.55)
+    new_height = int(width * aspect_ratio * 0.5)
     new_height = min(new_height, height)
 
     img = img.resize((width, new_height), Image.Resampling.LANCZOS)
@@ -100,8 +118,8 @@ def image_to_ascii(image_url, width=42, height=26):
         row = pixels[i:i + width]
         line = ""
         for pixel in row:
-            # Invert: dark pixels become filled blocks, light pixels become spaces
-            char_idx = int((255 - pixel) / 255 * (len(ASCII_CHARS) - 1))
+            # Map pixel to character (dark pixels = dense chars, light = sparse)
+            char_idx = int(pixel / 255 * (len(ASCII_CHARS) - 1))
             line += ASCII_CHARS[char_idx]
         ascii_lines.append(line)
 
