@@ -84,7 +84,7 @@
     <tspan class="key">repos</tspan><tspan class="dots">...........</tspan><tspan class="stat-value" id="repos">22</tspan>
   </text>
   <text x="380" y="364">
-    <tspan class="key">commits</tspan><tspan class="dots">.........</tspan><tspan class="stat-value" id="commits">74</tspan>
+    <tspan class="key">commits</tspan><tspan class="dots">.........</tspan><tspan class="stat-value" id="commits">78</tspan>
   </text>
   <text x="380" y="382">
     <tspan class="key">stars</tspan><tspan class="dots">...........</tspan><tspan class="stat-value" id="stars">25</tspan>
