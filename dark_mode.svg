@@ -87,7 +87,7 @@
     <tspan class="key">commits</tspan><tspan class="dots">.........</tspan><tspan class="stat-value" id="commits">84</tspan>
   </text>
   <text x="380" y="382">
-    <tspan class="key">stars</tspan><tspan class="dots">...........</tspan><tspan class="stat-value" id="stars">29</tspan>
+    <tspan class="key">stars</tspan><tspan class="dots">...........</tspan><tspan class="stat-value" id="stars">30</tspan>
   </text>
   <text x="380" y="400">
     <tspan class="key">followers</tspan><tspan class="dots">.......</tspan><tspan class="stat-value" id="followers">13</tspan>
