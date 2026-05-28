@@ -90,7 +90,7 @@
     <tspan class="key">stars</tspan><tspan class="dots">...........</tspan><tspan class="stat-value" id="stars">134</tspan>
   </text>
   <text x="380" y="400">
-    <tspan class="key">followers</tspan><tspan class="dots">.......</tspan><tspan class="stat-value" id="followers">10</tspan>
+    <tspan class="key">followers</tspan><tspan class="dots">.......</tspan><tspan class="stat-value" id="followers">11</tspan>
   </text>
 
   <text x="380" y="424" class="text">─────────────────────────────────────────</text>
